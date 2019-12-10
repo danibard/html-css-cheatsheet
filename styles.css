@@ -1,0 +1,74 @@
+html {
+	width: 960px;
+	font-size: 100%;
+	font-family: "Arial", sans-serif;
+	color: #112271;
+	margin: 0 auto;
+}
+
+.flex-container {
+	width: 960px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.banner-image {
+	width: 960px;
+	min-height: 50px;
+	background: #112271;
+	padding-top:  10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.banner-image h1 {
+	color: white;
+}
+
+.topics-sidebar {
+	width: 320px;
+	padding-top: 40px;
+}
+
+.main-content {
+	width: 640px;
+	padding-top:  40px;
+}
+
+.individual-post {
+	margin-bottom: 50px;
+}
+
+.main-content p.return-link {
+	margin-bottom: 50px;
+}
+
+/* Left arrow for links that return to index.html */
+
+i {
+	border: solid #112271;
+	border-width: 0px 2px 2px 0px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+  }
+
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	line-height: 2;
+}
+
+a:link, a:visited {
+	color: #112271;
+}
+
+a:hover {
+	color: #F09F08 ;
+}
