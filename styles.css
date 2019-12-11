@@ -1,47 +1,58 @@
+  
 html {
-	width: 960px;
-	font-size: 100%;
+	width: 1200px;
+	font-size: 16px;
 	font-family: "Arial", sans-serif;
 	color: #112271;
 	margin: 0 auto;
+	
 }
 
 .flex-container {
-	width: 960px;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
+
 .banner-image {
-	width: 960px;
-	min-height: 50px;
-	background: #112271;
-	padding-top:  10px;
-	padding-left: 20px;
-	padding-bottom: 10px;
+	width: 100%;
+	position: relative;
+}
+
+.banner-image img {
+	position: relative;
+	width: 100%;
+	height: 30%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 90%;
 }
 
 .banner-image h1 {
 	color: white;
+	font-size: 2.65rem;
+	position: absolute;
+	top: 8%;
+	width: 100%;
+	padding-left: 5%;
 }
 
 .topics-sidebar {
-	width: 320px;
-	padding-top: 40px;
+	width: 33%;
+
 }
 
 .main-content {
-	width: 640px;
-	padding-top:  40px;
+	width: 66%;
+	min-width: 33%;
+	max-width: 50%;
+
 }
 
 .individual-post {
-	margin-bottom: 50px;
-}
-
-.main-content p.return-link {
-	margin-bottom: 50px;
+	margin-bottom: 9%;
 }
 
 /* Left arrow for links that return to index.html */
@@ -49,7 +60,7 @@ html {
 i {
 	border: solid #112271;
 	border-width: 0px 2px 2px 0px;
-	padding: 5px;
+	padding: .9%;
 	display: inline-block;
 }
 
